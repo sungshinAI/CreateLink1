@@ -7,11 +7,12 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="41dp"
+        android:layout_width="302dp"
+        android:layout_height="77dp"
         android:layout_marginStart="24dp"
         android:layout_marginTop="96dp"
-        android:text="약속 링크가 생성되었어요"
+        android:text="생성된 약속 링크를 공유하고\n친구의 일정을 알아보세요"
+        android:textColor="#000000"
         android:textSize="25sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -22,38 +23,51 @@
         android:layout_width="280dp"
         android:layout_height="40dp"
         android:backgroundTint="#D9D9D9"
+        android:gravity="center"
         android:text="http://www.wemeethere.site"
         android:textColor="#000000"
+        android:background="@drawable/buttonround"
         tools:layout_editor_absoluteX="66dp"
-        tools:layout_editor_absoluteY="194dp" />
+        tools:layout_editor_absoluteY="255dp" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="280dp"
         android:layout_height="40dp"
         android:backgroundTint="#661463FC"
+        android:gravity="center"
         android:text="지금 공유할게요"
         android:textColor="#000000"
-        tools:layout_editor_absoluteX="66dp"
-        tools:layout_editor_absoluteY="289dp" />
+        android:background="@drawable/buttonround"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499"
+        tools:layout_editor_absoluteX="66dp" />
 
     <Button
         android:id="@+id/button3"
         android:layout_width="280dp"
         android:layout_height="40dp"
         android:backgroundTint="#D9D9D9"
+        android:gravity="center"
         android:text="나중에 할게요"
         android:textColor="#000000"
+        android:background="@drawable/buttonround"
         tools:layout_editor_absoluteX="66dp"
-        tools:layout_editor_absoluteY="403dp" />
+        tools:layout_editor_absoluteY="453dp" />
 
     <Button
         android:id="@+id/button4"
         android:layout_width="320dp"
         android:layout_height="45dp"
         android:layout_marginBottom="50dp"
+        android:background="@drawable/buttonround"
         android:backgroundTint="#1463FC"
+        android:gravity="center"
         android:text="다음"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         tools:layout_editor_absoluteX="45dp" />
 
